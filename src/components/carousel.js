@@ -10,4 +10,7 @@ export default styled.div`
   color: black;
   margin: 0 15px;
   font-size: 0.8em;
+
+  border-radius: 16px 16px 16px 16px;
+  padding: 10%;
 `;

@@ -1,0 +1,75 @@
+#heroImg {
+  height: 20%;
+  width: 100%;
+}
+.whyContainer {
+  margin-left: 15%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 16px 16px 16px 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.whyList {
+  float: left;
+}
+@media (min-width: 425px) {
+  .whyImg {
+    width: 50%;
+    height: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .whyImg {
+    display: none;
+  }
+}
+.reviewContainer {
+  background-image: url(https://res.cloudinary.com/drcgo7zqn/image/upload/v1594319302/Phone%20Smart/k-i-l-i-a-n-PZLgTUAhxMM-unsplash_yjs2mp.jpg);
+  background-size: cover;
+  padding: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.reviewsCards {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid black;
+
+  width: 25%;
+  margin: 20%;
+  padding: 10%;
+}
+.reviewContent {
+  font-size: 25%;
+}
+.rec.rec-dot {
+  background: white;
+}
+.rec.rec-dot_active {
+  background: white;
+  box-shadow: 0 0 1px 3px rgb(242, 242, 242);
+}
+.rec-arrow.rec-arrow-left {
+  background: rgba(255, 255, 255, 0.7);
+}
+.rec-arrow.rec-arrow-right {
+  background: rgba(255, 255, 255, 0.7);
+}
+.rec-arrow.rec-arrow-right:hover:enabled {
+  background: rgba(255, 255, 255, 0.6);
+}
+.rec-arrow.rec-arrow-left:hover:enabled {
+  background: rgba(255, 255, 255, 0.6);
+}
+.rec-arrow.rec-arrow-right:focus:enabled {
+  background: rgba(255, 255, 255, 0.6);
+}
+.rec-arrow.rec-arrow-left:focus:enabled {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.hOFuSo {
+  border-radius: 16px 16px 16px 16px;
+  padding: 10%;
+}

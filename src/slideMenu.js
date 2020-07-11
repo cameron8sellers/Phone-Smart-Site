@@ -44,6 +44,7 @@ const menuOverlay = css`
   position: fixed;
   top: 0;
   right: 0;
+  opacity: 0.8;
   background-color: white;
   height: 100vh;
   width: 40vw;
@@ -62,6 +63,7 @@ const menuOverlay = css`
       height: 30px;
       text-decoration: none;
       color: rgb(0, 44, 179);
+      opacity: 1;
       cursor: pointer;
       transition: all 150ms ease-in-out;
       &:hover {
@@ -96,13 +98,11 @@ class Menu extends React.Component {
         </div>
         <div className={`${menuOverlay} ${isMenuOpen ? "show" : null}`}>
           <nav>
-            <a href="/">Home Page</a>
-            <a href="/Health">Health</a>
-            <a href="/Home_Life">Home Life</a>
-            <a href="/Tech">Helpful Tech</a>
-            <a href="/Recipes">Recipes</a>
-            <a href="/Sleep">Sleep</a>
-            <a href="/Travel">Travel</a>
+            <a href="/">Home</a>
+            <a href="/Health">Our Services</a>
+            <a href="/Home_Life">Locations</a>
+            <a href="/Tech">Mobile Plans</a>
+            <a href="/Recipes">Devices & Accessories</a>
           </nav>
         </div>
       </React.Fragment>

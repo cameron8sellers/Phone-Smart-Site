@@ -1,9 +1,9 @@
 import React from "react";
-import { Navbar } from "reactstrap";
+
 import Menu from "./slideMenu";
 import landingPage from "./components/landingPage";
 import "./App.css";
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 function App() {
   return (

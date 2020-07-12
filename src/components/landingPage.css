@@ -45,11 +45,10 @@
   font-size: 25%;
 }
 .rec.rec-dot {
-  background: white;
+  display: none;
 }
 .rec.rec-dot_active {
-  background: white;
-  box-shadow: 0 0 1px 3px rgb(242, 242, 242);
+  display: none;
 }
 .rec-arrow.rec-arrow-left {
   background: rgba(255, 255, 255, 0.7);
@@ -68,8 +67,4 @@
 }
 .rec-arrow.rec-arrow-left:focus:enabled {
   background-color: rgba(255, 255, 255, 0.6);
-}
-.rec.rec-dot {
-  height: 5px;
-  width: 5px;
 }

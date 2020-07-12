@@ -69,3 +69,7 @@
 .rec-arrow.rec-arrow-left:focus:enabled {
   background-color: rgba(255, 255, 255, 0.6);
 }
+.rec.rec-dot {
+  height: 5px;
+  width: 5px;
+}

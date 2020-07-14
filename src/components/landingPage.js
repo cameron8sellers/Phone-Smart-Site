@@ -19,7 +19,13 @@ const landingPage = () => {
         src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1594319332/Phone%20Smart/pr-media-iuU2aZdzp_M-unsplash_c6xvww.jpg"
         id="heroImg"
       />
-
+      <Card className="tagline-card">
+        <p className="tagline">
+          We specialize in fast, affordable repairs for electronic devices! We
+          offer a buy, sell, and trade program with a great selection of
+          accessories!
+        </p>
+      </Card>
       <Card className="whyContainer">
         <div className="whyList">
           <h4>Why Phone Smart?</h4>

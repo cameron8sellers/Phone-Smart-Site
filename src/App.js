@@ -19,8 +19,23 @@ function App() {
         </div>
         <Menu />
       </nav>
+
       <Route exact path="/" component={landingPage} />
       <Route path="/services" component={services} />
+      <footer>
+        <p className="copyrightDevName">© Cameron Sellers</p>
+        <ul className="icons-list-container">
+          <li className="icons-list">
+            <i class="fab fa-facebook-square"></i>
+          </li>
+          <li className="icons-list">
+            <i class="fas fa-map-marker-alt"></i>
+          </li>
+          <li className="icons-list">
+            <i class="far fa-envelope"></i>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }

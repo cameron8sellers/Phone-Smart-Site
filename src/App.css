@@ -6,3 +6,18 @@
   padding-top: 0.9em;
   padding-left: 0.9em;
 }
+.icons-list-container {
+  display: flex;
+  padding-left: 55%;
+  justify-items: space-around;
+}
+.icons-list {
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  padding: 5px;
+}
+footer {
+  display: flex;
+  font-size: smaller;
+}

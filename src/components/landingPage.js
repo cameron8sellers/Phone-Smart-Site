@@ -19,6 +19,13 @@ const landingPage = () => {
         src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1594319332/Phone%20Smart/pr-media-iuU2aZdzp_M-unsplash_c6xvww.jpg"
         id="heroImg"
       />
+      <Card className="tagline-card">
+        <p className="tagline">
+          We specialize in fast, affordable repairs for electronic devices! We
+          offer a buy, sell, and trade program with a great selection of
+          accessories!
+        </p>
+      </Card>
       <Card className="whyContainer">
         <div className="whyList">
           <h4>Why Phone Smart?</h4>
@@ -28,11 +35,17 @@ const landingPage = () => {
             <li>Fast & Reasonable</li>
           </ul>
         </div>
+
         <img
           alt=""
           src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1594319318/Phone%20Smart/joel-rohland-C1r9pODhfQ4-unsplash_dedqou.jpg"
           className="whyImg"
         />
+      </Card>
+      <Card className="contactus-card">
+        <h1 className="contact-head">
+          <span>Contact Us</span>
+        </h1>
       </Card>
       <div className="reviewContainer">
         <Carousel breakPoints={breakPoints}>

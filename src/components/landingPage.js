@@ -42,11 +42,11 @@ const landingPage = () => {
       </Card>
       <Card className="whyContainer">
         <div className="whyList">
-          <h4>Why Phone Smart?</h4>
+          <h4 className="why-title">Why Phone Smart?</h4>
           <ul>
-            <li>Safe & Reliable</li>
-            <li>Knowledgeable</li>
-            <li>Fast & Reasonable</li>
+            <li> - Safe & Reliable</li>
+            <li> - Knowledgeable</li>
+            <li> - Fast & Reasonable</li>
           </ul>
         </div>
 

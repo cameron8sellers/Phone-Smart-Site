@@ -91,12 +91,18 @@
   background: none;
   box-shadow: none;
 }
+.why-title {
+  margin-bottom: 1px;
+  font-size: 20px;
+}
 li {
   list-style: none;
   padding-left: none;
+  text-align: center;
 }
 ul {
   padding-left: 8px;
+  margin-top: 0px;
 }
 .fas.fa-mobile-alt {
   font-size: 5em;

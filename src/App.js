@@ -2,7 +2,7 @@ import React from "react";
 
 import Menu from "./slideMenu";
 import landingPage from "./components/landingPage";
-import services from "./components/servicesPage";
+
 import "./App.css";
 import { Route } from "react-router-dom";
 

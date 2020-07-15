@@ -24,6 +24,11 @@
   display: flex;
   background-color: white;
   width: 100%;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.fas.fa-map-marker-alt,
+.far.fa-envelope {
+  font-size: smaller;
 }
 footer {
   display: flex;

@@ -34,3 +34,11 @@ footer {
   display: flex;
   font-size: smaller;
 }
+@media (min-width: 426px) {
+  .icons-list-container {
+    padding-left: 85%;
+  }
+}
+.copyrightDevName {
+  padding-left: 10px;
+}

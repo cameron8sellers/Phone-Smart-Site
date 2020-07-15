@@ -23,7 +23,7 @@ function App() {
       <Route exact path="/" component={landingPage} />
 
       <footer>
-        <p className="copyrightDevName">© Cameron Sellers</p>
+        <p className="copyrightDevName">© The Spare Room</p>
         <ul className="icons-list-container">
           <li className="icons-list">
             <i class="fab fa-facebook-square"></i>

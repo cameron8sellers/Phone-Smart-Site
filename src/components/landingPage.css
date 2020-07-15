@@ -11,16 +11,29 @@
   width: 70%;
   border-radius: 16px 16px 16px 16px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   z-index: 1;
 }
-.whyList {
-  float: left;
-}
-@media (min-width: 425px) {
+
+@media (min-width: 426px) {
+  .why-container {
+    display: flex;
+    justify-content: space-between;
+  }
   .whyImg {
     width: 50%;
     height: 100%;
+    border-radius: 0px 16px 16px 0px;
+  }
+  .whyList {
+    padding-left: 15%;
+    padding-top: 2.5%;
+    font-size: x-large;
+  }
+  .tagline {
+    font-size: 40px;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   }
 }
 @media (max-width: 425px) {
@@ -91,8 +104,9 @@ ul {
 .tagline-card {
   z-index: 1;
   width: 80%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 16px;
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+
   margin: 10%;
 }
 .tagline {
@@ -170,4 +184,11 @@ ul {
   justify-content: space-evenly;
   margin: 10%;
   align-content: center;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+}
+.fas.fa-quote-right {
+  font-size: 2em;
 }

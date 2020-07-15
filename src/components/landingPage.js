@@ -77,29 +77,35 @@ const landingPage = () => {
       </div>
       <div className="reviewContainer">
         <Carousel breakPoints={breakPoints}>
-          <Item>
+          <Item className="review-card">
+            <i class="fas fa-quote-right"></i>
             "These guys are great! Knowledgeable, friendly, reasonable, and they
             work hard to make sure your needs are met! I highly recommend them!"
             -James Moody
           </Item>
-          <Item>
+          <Item className="review-card">
+            <i class="fas fa-quote-right"></i>
             "Super friendly, fast, and great cases too. I took my iPhone 8 there
             with a terrible cracked screen and picked out a new case. An hour
             later I had my phone with the case on it. Awesome!!" -Adam Beaty
           </Item>
-          <Item>
+          <Item className="review-card">
+            <i class="fas fa-quote-right"></i>
             "They are honest & capable. And their products are very reasonably
             priced…not like a typical cellular store." - Teresa Draughn
           </Item>
-          <Item>
+          <Item className="review-card">
+            <i class="fas fa-quote-right"></i>
             "Always so helpful and friendly! I recommend them to everyone
             looking for phone plans & repairs!" - Kayla BethAnn Brown Voiles
           </Item>
-          <Item>
+          <Item className="review-card">
+            <i class="fas fa-quote-right"></i>
             "Locally owned and operated. Great prices, repair phones, Great
             Customer service." - Raymond Phillips
           </Item>
-          <Item>
+          <Item className="review-card">
+            <i class="fas fa-quote-right"></i>
             "They replaced my battery in my I phone 6 today very reasonable fast
             service very friendly and courteous if you need your I phone worked
             on please pay them a visit." - Jo Ann Brewington

@@ -1,6 +1,7 @@
 #heroImg {
   height: 20%;
   width: 100%;
+  padding-top: 85px;
 }
 .whyContainer {
   margin-left: 15%;
@@ -96,4 +97,44 @@ ul {
 }
 .tagline {
   padding: 2em;
+  text-align: center;
+}
+.contactus-card {
+  color: white;
+  background: rgb(0, 44, 179);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 16px;
+  text-align: center;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+  box-shadow: 6px 11px 14px 2px rgba(0, 0, 0, 0.47);
+}
+.contact-head {
+  text-shadow: 2px 2px black;
+}
+.contactus-card span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.contactus-card span::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.contactus-card:hover span {
+  padding-right: 25px;
+}
+.contactus-card:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+.contactus-card:active {
+  transform: translateY(5px);
 }

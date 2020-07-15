@@ -35,11 +35,17 @@ const landingPage = () => {
             <li>Fast & Reasonable</li>
           </ul>
         </div>
+
         <img
           alt=""
           src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1594319318/Phone%20Smart/joel-rohland-C1r9pODhfQ4-unsplash_dedqou.jpg"
           className="whyImg"
         />
+      </Card>
+      <Card className="contactus-card">
+        <h1 className="contact-head">
+          <span>Contact Us</span>
+        </h1>
       </Card>
       <div className="reviewContainer">
         <Carousel breakPoints={breakPoints}>

@@ -21,7 +21,7 @@ function App() {
       </nav>
 
       <Route exact path="/" component={landingPage} />
-      <Route path="/services" component={services} />
+
       <footer>
         <p className="copyrightDevName">© Cameron Sellers</p>
         <ul className="icons-list-container">

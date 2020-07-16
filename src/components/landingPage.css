@@ -7,7 +7,7 @@
   margin-left: 15%;
   margin-top: 15%;
   margin-bottom: 15%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+
   width: 70%;
   border-radius: 16px 16px 16px 16px;
   display: flex;
@@ -19,21 +19,26 @@
   .why-container {
     display: flex;
     justify-content: space-between;
+    border: none;
+  }
+  .why-title {
+    font-size: 20px;
   }
   .whyImg {
     width: 50%;
     height: 100%;
-    border-radius: 0px 16px 16px 0px;
+
+    margin-left: 55px;
   }
   .whyList {
-    padding-left: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 2.5%;
     font-size: x-large;
+    text-align: center;
   }
   .tagline {
     font-size: 40px;
-    border-top: 2px solid rgba(0, 0, 0, 0.3);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   }
 }
 @media (max-width: 425px) {
@@ -92,13 +97,15 @@
   box-shadow: none;
 }
 .why-title {
-  margin-bottom: 1px;
-  font-size: 20px;
+  margin-bottom: 25px;
+  font-size: 30px;
 }
 li {
   list-style: none;
   padding-left: none;
   text-align: center;
+  margin-top: 7%;
+  margin-bottom: 2%;
 }
 ul {
   padding-left: 8px;

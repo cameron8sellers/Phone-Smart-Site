@@ -43,3 +43,6 @@ footer {
 .copyrightDevName {
   padding-left: 10px;
 }
+a:visited {
+  color: white;
+}

@@ -46,7 +46,7 @@ const menuOverlay = css`
   right: 0;
   opacity: 0.8;
   background-color: white;
-  height: 100vh;
+  height: 80vh;
   width: 40vw;
   transform: translateX(100%);
   transition: all 500ms ease-in-out;
@@ -99,8 +99,8 @@ class Menu extends React.Component {
         <div className={`${menuOverlay} ${isMenuOpen ? "show" : null}`}>
           <nav>
             <a href="/">Home</a>
-            <a href="/">Locations</a>
-            <a href="/">Contact Us</a>
+
+            <a href="/contact">Contact Us</a>
             <a href="/">Mobile Plans</a>
             <a href="/">Devices & Accessories</a>
           </nav>

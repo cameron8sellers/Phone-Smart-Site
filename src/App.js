@@ -1,5 +1,5 @@
 import React from "react";
-
+import contactPage from "./components/contact";
 import Menu from "./slideMenu";
 import landingPage from "./components/landingPage";
 
@@ -21,6 +21,7 @@ function App() {
       </nav>
 
       <Route exact path="/" component={landingPage} />
+      <Route path="/contact" component={contactPage} />
 
       <footer>
         <p className="copyrightDevName">© The Spare Room</p>

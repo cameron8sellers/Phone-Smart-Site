@@ -58,7 +58,9 @@ const landingPage = () => {
       </Card>
       <Card className="contactus-card">
         <h1 className="contact-head">
-          <span>Contact Us</span>
+          <a href="/contact">
+            <span>Contact Us</span>
+          </a>
         </h1>
       </Card>
       <div className="toast-container">

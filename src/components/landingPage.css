@@ -40,6 +40,13 @@
   .tagline {
     font-size: 40px;
   }
+
+  .icons-list {
+    font-size: x-large;
+  }
+  .copyrightDevName {
+    padding-top: 1%;
+  }
 }
 @media (max-width: 425px) {
   .whyImg {

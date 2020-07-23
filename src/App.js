@@ -29,17 +29,6 @@ function App() {
 
       <footer>
         <p className="copyrightDevName">© The Spare Room</p>
-        <ul className="icons-list-container">
-          <li className="icons-list">
-            <i class="fab fa-facebook-square"></i>
-          </li>
-          <li className="icons-list">
-            <i class="fas fa-map-marker-alt"></i>
-          </li>
-          <li className="icons-list">
-            <i class="far fa-envelope"></i>
-          </li>
-        </ul>
       </footer>
     </div>
   );

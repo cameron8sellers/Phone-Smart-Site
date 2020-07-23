@@ -31,7 +31,7 @@
   .contact-toast-container {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     margin-bottom: 200px;
   }
   .contact-toast {

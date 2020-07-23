@@ -101,8 +101,7 @@ class Menu extends React.Component {
             <a href="/">Home</a>
 
             <a href="/contact">Contact Us</a>
-            <a href="/">Mobile Plans</a>
-            <a href="/">Devices & Accessories</a>
+            <a href="/plans">Mobile Plans</a>
           </nav>
         </div>
       </React.Fragment>

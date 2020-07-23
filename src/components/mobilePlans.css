@@ -1,0 +1,22 @@
+.mobile-plans-container {
+  padding-top: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+.mobile-plans-toast {
+  width: 35%;
+}
+.plans-li {
+  font-size: x-large;
+  font-family: "Varta", sans-serif;
+}
+@media (max-width: 426px) {
+  .mobile-plans-toast {
+    width: 51%;
+  }
+  .plans-li {
+    font-size: large;
+  }
+}

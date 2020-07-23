@@ -3,14 +3,15 @@ import contactPage from "./components/contact";
 import Menu from "./slideMenu";
 import landingPage from "./components/landingPage";
 import mobilePlansPage from "./components/mobilePlans";
-
+import { Navbar, Nav, NavItem, NavLink } from "reactstrap";
 import "./App.css";
 import { Route } from "react-router-dom";
-
+import { useMediaQuery } from "react-responsive";
 function App() {
+  const isMobile = useMediaQuery({ query: "(max-width:426px)" });
   return (
     <div className="App">
-      <nav className="nav">
+      <Nav className="nav">
         <div className="logoContainer">
           <a href="/">
             <img
@@ -20,8 +21,29 @@ function App() {
             />
           </a>
         </div>
-        <Menu />
-      </nav>
+        {isMobile ? (
+          <Menu />
+        ) : (
+          <div className="desktop-nav-container">
+            <NavItem>
+              <NavLink href="/" className="navLink">
+                Home
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact" className="navLink">
+                Contact
+              </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink href="plans" className="navLink" id="mobile-plans-link">
+                Mobile Plans
+              </NavLink>
+            </NavItem>
+          </div>
+        )}
+      </Nav>
 
       <Route exact path="/" component={landingPage} />
       <Route path="/contact" component={contactPage} />

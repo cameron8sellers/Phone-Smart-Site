@@ -18,11 +18,30 @@
   float: right;
   padding: 5px;
 }
+.navLink,
+.navLink:visited {
+  color: black;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: larger;
+  border-right: 1px solid rgba(0, 0, 0, 0.26);
+}
 
+#mobile-plans-link {
+  border-right: none;
+}
+.desktop-nav-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
 .nav {
   position: fixed;
   z-index: 999;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
   width: 100%;
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.26);

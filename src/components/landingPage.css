@@ -149,6 +149,7 @@ ul {
   text-shadow: 2px 2px black;
 }
 .contactus-card span {
+  color: white;
   cursor: pointer;
   display: inline-block;
   position: relative;

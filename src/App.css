@@ -50,13 +50,23 @@
 .far.fa-envelope {
   font-size: smaller;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
 footer {
   display: flex;
   font-size: smaller;
+  margin-top: 25%;
 }
 @media (min-width: 426px) {
   .icons-list-container {
     padding-left: 85%;
+  }
+}
+@media (max-width: 425px) {
+  footer {
+    margin-top: 10%;
   }
 }
 .copyrightDevName {

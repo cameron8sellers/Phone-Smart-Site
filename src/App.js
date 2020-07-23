@@ -3,7 +3,7 @@ import contactPage from "./components/contact";
 import Menu from "./slideMenu";
 import landingPage from "./components/landingPage";
 import mobilePlansPage from "./components/mobilePlans";
-import { Navbar, Nav, NavItem, NavLink } from "reactstrap";
+import { Nav, NavItem, NavLink } from "reactstrap";
 import "./App.css";
 import { Route } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";

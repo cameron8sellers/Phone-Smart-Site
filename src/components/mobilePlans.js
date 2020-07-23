@@ -31,6 +31,7 @@ const mobilePlansPage = () => {
       <Toast className="mobile-plans-toast">
         <ToastHeader>
           <img
+            className="pageplus-logo"
             alt=""
             src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1595529488/Phone%20Smart/gray_PP_logo_h80kt8.png"
           ></img>

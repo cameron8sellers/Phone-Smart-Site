@@ -50,14 +50,12 @@
 .far.fa-envelope {
   font-size: smaller;
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
-footer {
-  display: flex;
-  font-size: smaller;
-}
+
 @media (min-width: 426px) {
   .icons-list-container {
     padding-left: 85%;
@@ -66,9 +64,6 @@ footer {
 @media (max-width: 425px) {
   footer {
     margin-top: 10%;
-    position: absolute;
-    bottom: 0;
-    overflow: hidden;
   }
 }
 .copyrightDevName {

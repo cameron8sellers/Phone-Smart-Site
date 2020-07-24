@@ -57,7 +57,7 @@ body {
 footer {
   display: flex;
   font-size: smaller;
-  position: absolute;
+
   bottom: 0;
 }
 @media (min-width: 426px) {
